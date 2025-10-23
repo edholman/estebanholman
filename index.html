@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esteban Holman | Real Estate & Mortgage Professional</title>
+    <title>Esteban Holman | Real Estate Professional</title>
     <style>
         /* Reset and Base Styles */
         * {
@@ -278,15 +278,12 @@
             padding: 100px 0;
             background-color: var(--primary);
             color: white;
+            text-align: center;
         }
         
         .contact-container {
-            display: flex;
-            gap: 50px;
-        }
-        
-        .contact-info {
-            flex: 1;
+            max-width: 600px;
+            margin: 0 auto;
         }
         
         .contact-info .section-title {
@@ -295,15 +292,18 @@
         
         .contact-info .section-title:after {
             background-color: var(--secondary);
+            left: 50%;
+            transform: translateX(-50%);
         }
         
         .contact-details {
-            margin-top: 30px;
+            margin: 30px 0;
         }
         
         .contact-item {
             display: flex;
             align-items: center;
+            justify-content: center;
             margin-bottom: 20px;
         }
         
@@ -313,36 +313,8 @@
             color: var(--secondary);
         }
         
-        .contact-form {
-            flex: 1;
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        
-        .form-group {
-            margin-bottom: 20px;
-        }
-        
-        .form-group label {
-            display: block;
-            margin-bottom: 8px;
-            color: var(--dark);
-            font-weight: 500;
-        }
-        
-        .form-control {
-            width: 100%;
-            padding: 12px 15px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 1rem;
-        }
-        
-        .form-control:focus {
-            outline: none;
-            border-color: var(--primary);
+        .contact-btn {
+            margin-top: 30px;
         }
         
         /* Footer */
@@ -418,11 +390,11 @@
         
         /* Responsive Styles */
         @media (max-width: 992px) {
-            .about-container, .contact-container {
+            .about-container {
                 flex-direction: column;
             }
             
-            .about-img, .about-content, .contact-info, .contact-form {
+            .about-img, .about-content {
                 width: 100%;
             }
             
@@ -495,8 +467,8 @@
     <section class="hero" id="home">
         <div class="container">
             <h1>Helping Families Achieve Their Housing Goals</h1>
-            <p>With over 200 families assisted since 2019, I'm dedicated to simplifying the real estate and mortgage process for you.</p>
-            <a href="#contact" class="btn">Get Started Today</a>
+            <p>With over 200 families assisted since 2019, I'm dedicated to simplifying the real estate process for you.</p>
+            <a href="https://api.leadconnectorhq.com/widget/form/ZqqCEljUWRsVGom7aIgh" target="_blank" class="btn">Get Started Today</a>
         </div>
     </section>
 
@@ -535,7 +507,7 @@
         <div class="container">
             <div class="services-header">
                 <h2 class="section-title">How I Can Help You</h2>
-                <p>Comprehensive real estate and mortgage services tailored to your needs</p>
+                <p>Comprehensive real estate services tailored to your needs</p>
             </div>
             
             <div class="services-grid">
@@ -546,9 +518,9 @@
                 </div>
                 
                 <div class="service-card">
-                    <div class="service-icon">💰</div>
-                    <h3 class="service-title">Mortgage Solutions</h3>
-                    <p>Explore mortgage options that fit your financial situation. I'll help you understand the process and secure the financing that works for you.</p>
+                    <div class="service-icon">🏡</div>
+                    <h3 class="service-title">Home Selling</h3>
+                    <p>Maximize your home's value and sell for the best price. I'll handle the entire process from pricing strategy to closing.</p>
                 </div>
                 
                 <div class="service-card">
@@ -594,28 +566,10 @@
                         <div>520-841-1628</div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="contact-form">
-                <form id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">How Can I Help You?</label>
-                        <textarea id="message" class="form-control" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
+                
+                <div class="contact-btn">
+                    <a href="https://api.leadconnectorhq.com/widget/form/ZqqCEljUWRsVGom7aIgh" target="_blank" class="btn">Schedule a Consultation</a>
+                </div>
             </div>
         </div>
     </section>
@@ -637,7 +591,7 @@
                     <img src="https://imgur.com/Iv00a9k.png" alt="HomeSmart Logo" class="homesmart-logo">
                 </div>
                 <div class="copyright">
-                    &copy; 2025 Esteban Holman
+                    &copy; 2023 Esteban Holman. All rights reserved.
                 </div>
                 <div class="nmls-info">
                     NMLS# 1940106<br>
@@ -648,13 +602,6 @@
     </footer>
 
     <script>
-        // Simple form submission handler
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message! Esteban will get back to you soon.');
-            this.reset();
-        });
-        
         // Mobile menu toggle
         document.querySelector('.mobile-menu').addEventListener('click', function() {
             document.querySelector('.nav-links').classList.toggle('active');
