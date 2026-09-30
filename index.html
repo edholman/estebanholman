@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Esteban Holman — Mortgage Loan Officer with Saxton Mortgage. Helping families achieve homeownership with purchase loans, refinances, and capital funding solutions. Licensed in 17 states.">
-    <title>Esteban Holman | Mortgage Loan Officer | Saxton Mortgage</title>
+    <meta name="description" content="Esteban Holman, Arizona real estate and finance professional. I help people purchase, invest, sell, and save, as a licensed Realtor with HomeSmart and a licensed loan officer.">
+    <title>Esteban Holman | Real Estate &amp; Finance Professional</title>
     <style>
         /* Reset and Base Styles */
         * {
@@ -78,11 +78,6 @@
             display: flex;
             align-items: center;
             gap: 15px;
-        }
-
-        .saxton-logo {
-            height: 55px;
-            width: auto;
         }
 
         .header-name {
@@ -326,14 +321,6 @@
             min-height: 875px;
         }
 
-        .contact-form-wrapper iframe {
-            width: 100%;
-            height: 875px;
-            border: none;
-            border-radius: 8px;
-            display: block;
-        }
-
         .contact-info .section-title {
             color: white;
         }
@@ -412,18 +399,6 @@
         .footer-logo {
             display: flex;
             align-items: center;
-        }
-
-        .saxton-logo-footer {
-            height: 50px;
-            width: auto;
-            opacity: 0.85;
-            transition: opacity 0.3s ease;
-            filter: brightness(0) invert(1);
-        }
-
-        .saxton-logo-footer:hover {
-            opacity: 1;
         }
 
         .nmls-info {
@@ -549,16 +524,28 @@
                 font-size: 0.95rem;
             }
 
-            .saxton-logo {
-                height: 42px;
-            }
-
             .contact-form-wrapper,
-            .contact-form-wrapper iframe {
-                min-height: 1275px;
-                height: 1275px;
-            }
         }
+    
+
+        .services-grid { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+        .hero .hero-kicker { letter-spacing: .12em; text-transform: uppercase; font-size: .9rem; opacity: .85; margin-bottom: .75rem; }
+        .lead-form { display: grid; gap: .8rem; }
+        .lead-form .row { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+        .lead-form label.field { display: grid; gap: .3rem; font-size: .9rem; color: #343a40; font-weight: 600; }
+        .lead-form input, .lead-form select, .lead-form textarea { width: 100%; padding: .7rem .8rem; border: 1px solid #cfd6de; border-radius: 6px; font: inherit; font-weight: 400; background: #fff; }
+        .lead-form textarea { min-height: 90px; resize: vertical; }
+        .lead-form .consent { display: flex; gap: .6rem; align-items: flex-start; font-size: .78rem; line-height: 1.45; color: #6c757d; font-weight: 400; }
+        .lead-form .consent input { width: auto; margin-top: .2rem; }
+        .lead-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+        .lead-form button { border: 0; cursor: pointer; font-size: 1rem; }
+        .lead-form button[disabled] { opacity: .6; cursor: wait; }
+        .form-msg { font-size: .95rem; margin-top: .25rem; }
+        .form-msg.ok { color: #1a7f37; } .form-msg.err { color: #b42318; }
+        .license-block { display: grid; gap: .35rem; }
+        .eho { font-size: .8rem; margin-top: .5rem; opacity: .85; }
+        @media (max-width: 600px) { .lead-form .row { grid-template-columns: 1fr; } }
+
     </style>
 </head>
 <body>
@@ -566,10 +553,9 @@
     <header>
         <div class="container header-container">
             <div class="header-brand">
-                <img src="saxton-logo.png" alt="Saxton Mortgage" class="saxton-logo">
                 <div class="header-name">
                     <span class="name">Esteban Holman</span>
-                    <span class="title">Mortgage Loan Officer &nbsp;|&nbsp; NMLS #1940106</span>
+                    <span class="title">Real Estate &amp; Finance Professional</span>
                 </div>
             </div>
             <ul class="nav-links">
@@ -586,9 +572,10 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="container">
-            <h1>Your Trusted Mortgage Loan Officer</h1>
-            <p>Helping families and business owners achieve their real estate goals through purchase loans, refinances, and business funding solutions  with a personal touch.</p>
-            <a href="#contact" class="btn">Get Started Today</a>
+            <div class="hero-kicker">Purchase &nbsp;·&nbsp; Invest &nbsp;·&nbsp; Sell &nbsp;·&nbsp; Save</div>
+            <h1>Your Arizona Real Estate &amp; Finance Professional</h1>
+            <p>One person for the whole move. Whether you're buying your first home, growing a rental portfolio, selling, or lowering what you pay, I'll help you make the smart move with a personal touch.</p>
+            <a href="#contact" class="btn">Let's Talk</a>
         </div>
     </section>
 
@@ -600,9 +587,9 @@
             </div>
             <div class="about-content">
                 <h2 class="section-title">About Esteban</h2>
-                <p>Esteban is a Mortgage Loan Officer with Saxton Mortgage, dedicated to helping families navigate the home financing process with confidence. He considers himself a lifelong learner and is continuously working to improve his ability to listen to his clients and determine the best loan options based on their goals.</p>
-                <p>He understands that his clients' time and money are invaluable, and he seeks to provide them with trustworthy, reliable service. His personal mission is to help his community build wealth and achieve homeownership through smart mortgage solutions.</p>
-                <p>Whether you're a first-time buyer, looking to refinance, or exploring investment financing, let Esteban simplify the process for you.</p>
+                <p>Esteban is a licensed Realtor and a licensed loan officer, which means he can help you from the first search to the keys, and long after. He considers himself a lifelong learner and is always working to be a better listener, so the advice he gives fits your goals, not a script.</p>
+                <p>He knows your time and money are invaluable, and he works to give you trustworthy, reliable service at every step. His personal mission is to help his community build wealth through real estate: buying the right home, investing with a plan, selling for the most, and keeping more of what you earn.</p>
+                <p>Whether you're a first time buyer, an investor, getting ready to sell, or looking to save on your current home, let Esteban simplify the process for you.</p>
 
                 <div class="stats">
                     <div class="stat-item">
@@ -614,8 +601,8 @@
                         <div class="stat-text">Year Started</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">17</div>
-                        <div class="stat-text">States Licensed</div>
+                        <div class="stat-number">2</div>
+                        <div class="stat-text">Licenses: Realtor &amp; Loan Officer</div>
                     </div>
                 </div>
             </div>
@@ -627,26 +614,32 @@
         <div class="container">
             <div class="services-header">
                 <h2 class="section-title">How I Can Help You</h2>
-                <p>Comprehensive mortgage &amp; home financing services tailored to your needs</p>
+                <p>Purchase, invest, sell, and save, all in one place</p>
             </div>
 
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">🏠</div>
-                    <h3 class="service-title">Home Purchase Loans</h3>
-                    <p>Navigate the mortgage process with confidence. From pre-approval to closing, I'll guide you to the right loan program including conventional, FHA, VA, USDA, and more.</p>
+                    <h3 class="service-title">Purchase</h3>
+                    <p>Find the right home and get it under contract with confidence. I'll guide your search, your offer, and your financing options from pre approval to closing.</p>
                 </div>
 
                 <div class="service-card">
-                    <div class="service-icon">🔄</div>
-                    <h3 class="service-title">Refinancing</h3>
-                    <p>Lower your rate, reduce your monthly payment, or tap into your home's equity. I'll find the refinance strategy that makes the most financial sense for your situation.</p>
+                    <div class="service-icon">📈</div>
+                    <h3 class="service-title">Invest</h3>
+                    <p>Rentals, flips, or your next property. I'll help you run the numbers, find deals that fit your plan, and line up financing built for investors.</p>
                 </div>
 
                 <div class="service-card">
-                    <div class="service-icon">🏦</div>
-                    <h3 class="service-title">Business Purpose Loans</h3>
-                    <p>Structured financing solutions that leverage your existing assets to unlock capital. Whether you're acquiring commercial real estate, expanding a business, or repositioning an investment portfolio, we'll find the right structure for your goals.</p>
+                    <div class="service-icon">🔑</div>
+                    <h3 class="service-title">Sell</h3>
+                    <p>Price it right, show it well, and net the most. I'll market your home, negotiate for you, and help you plan your next move at the same time.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💰</div>
+                    <h3 class="service-title">Save</h3>
+                    <p>Lower your payment, pull out equity, or pay off higher interest debt. I'll look at your current home and show you whether a refinance makes sense.</p>
                 </div>
             </div>
         </div>
@@ -657,7 +650,7 @@
         <div class="container">
             <div class="testimonials-header">
                 <h2 class="section-title">What Clients Say</h2>
-                <p>Hear from families I've helped achieve their homeownership goals</p>
+                <p>Hear from families I've helped reach their real estate goals</p>
             </div>
 
             <div class="testimonial-slider">
@@ -674,42 +667,51 @@
         <div class="container contact-container">
             <div class="contact-info">
                 <h2 class="section-title">Get In Touch</h2>
-                <p>Ready to take the next step in your home financing journey? Contact me today for a free consultation.</p>
+                <p>Buying, selling, investing, or looking to save? Tell me a little about what you need and I'll reach out.</p>
 
                 <div class="contact-details">
                     <div class="contact-item">
-                        <div class="contact-icon">✉️</div>
-                        <div>esteban@saxtonmortgage.com</div>
+                        <div class="contact-icon">📞</div>
+                        <div><a href="tel:+14805264115">480-526-4115</a> &nbsp;(call or text)</div>
                     </div>
                     <div class="contact-item">
-                        <div class="contact-icon">📞</div>
-                        <div>520-841-1628</div>
+                        <div class="contact-icon">📅</div>
+                        <div><a href="https://calendly.com/estebanholman" target="_blank" rel="noopener">Book a time</a></div>
                     </div>
                 </div>
-
             </div>
 
             <div class="contact-form-wrapper">
-                <iframe
-                    src="https://api.leadconnectorhq.com/widget/form/iY9U94J6iOy0gbEKrAek"
-                    id="inline-iY9U94J6iOy0gbEKrAek"
-                    data-layout="{'id':'INLINE'}"
-                    data-trigger-type="alwaysShow"
-                    data-trigger-value=""
-                    data-activation-type="alwaysActivated"
-                    data-activation-value=""
-                    data-deactivation-type="neverDeactivate"
-                    data-deactivation-value=""
-                    data-form-name="EstebanHolman.com"
-                    data-height="875"
-                    data-layout-iframe-id="inline-iY9U94J6iOy0gbEKrAek"
-                    data-form-id="iY9U94J6iOy0gbEKrAek"
-                    title="EstebanHolman.com"
-                ></iframe>
+                <form class="lead-form" id="lead-form" novalidate>
+                    <div class="row">
+                        <label class="field">First name<input name="first_name" autocomplete="given-name" required></label>
+                        <label class="field">Last name<input name="last_name" autocomplete="family-name"></label>
+                    </div>
+                    <div class="row">
+                        <label class="field">Mobile phone<input name="phone" type="tel" autocomplete="tel" required></label>
+                        <label class="field">Email<input name="email" type="email" autocomplete="email"></label>
+                    </div>
+                    <label class="field">I'm looking to
+                        <select name="interest" required>
+                            <option value="">Choose one</option>
+                            <option value="buy">Buy a home</option>
+                            <option value="sell">Sell my home</option>
+                            <option value="invest">Invest in real estate</option>
+                            <option value="refinance">Save / refinance</option>
+                        </select>
+                    </label>
+                    <label class="field">Anything else I should know? (optional)<textarea name="message"></textarea></label>
+                    <label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+                    <label class="consent">
+                        <input type="checkbox" name="consent" required>
+                        <span id="consent-text">By checking this box, I agree to receive calls and text messages from Esteban Holman at the number provided, including messages sent using automated technology, about my real estate or financing inquiry. Consent is not a condition of purchase. Msg &amp; data rates may apply. Msg frequency varies. Reply STOP to opt out, HELP for help. See our <a href="/privacy-policy">Privacy Policy</a> and <a href="/terms-of-service">Terms</a>.</span>
+                    </label>
+                    <button type="submit" class="btn">Send</button>
+                    <div class="form-msg" id="form-msg" role="status"></div>
+                </form>
             </div>
         </div>
     </section>
-    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
 
     <!-- Footer -->
     <footer>
@@ -719,27 +721,23 @@
                 <div class="social-links">
                     <a href="https://www.facebook.com/esteban.holman.73" class="social-link" target="_blank">FB</a>
                     <a href="https://www.instagram.com/homeswithesteban" class="social-link" target="_blank">IG</a>
-                    <a href="https://www.linkedin.com/in/esteban-holman-05b0b239?trk=people-guest_people_search-card" class="social-link" target="_blank">LI</a>
+                    <a href="https://www.linkedin.com/in/esteban-holman-05b0b239" class="social-link" target="_blank">LI</a>
                 </div>
             </div>
 
             <div class="footer-info">
-                <div class="footer-logo">
-                    <img src="saxton-logo.png" alt="Saxton Mortgage" class="saxton-logo-footer">
-                </div>
                 <div class="copyright">
                     &copy; 2026 Incite LLC
                 </div>
-                <div class="nmls-info">
-                    <strong>Esteban Holman</strong> | NMLS #1940106<br>
-                    <strong>Saxton Mortgage</strong> | NMLS #1717191 / 2525913 | Company DRE #02205630<br>
-                    12636 High Bluff Drive, Suite 400, San Diego, CA 92130<br>
-                    Licensed in: AL, AZ, CA, CO, FL, HI, ID, MN, NM, NV, OH, OR, PA, TX, UT, WA, WY
+                <div class="nmls-info license-block">
+                    <div><strong>Real estate:</strong> Esteban Holman, Realtor, AZ License #SA678155000 | HomeSmart</div>
+                    <div><strong>Mortgage:</strong> Esteban Holman, Loan Officer, NMLS #1940106 | Loan Factory, Inc., NMLS #320841 | <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener">NMLS Consumer Access</a></div>
+                    <div class="eho">Equal Housing Opportunity</div>
                 </div>
             </div>
 
             <div class="footer-disclaimer">
-                Marketing and communications on this website are managed by Incite LLC. Esteban Holman (NMLS #1940106) is a licensed Mortgage Loan Officer with Saxton Mortgage (NMLS #1717191). Incite LLC is a separate legal entity from Saxton Mortgage and is not a mortgage lender.
+                Marketing and communications on this website are managed by Incite LLC. Real estate services are provided by Esteban Holman as a licensed Realtor with HomeSmart. Mortgage services are provided by Esteban Holman (NMLS #1940106) as a licensed loan officer with Loan Factory, Inc. (NMLS #320841), in states where licensed. Incite LLC is a separate legal entity and is not a real estate brokerage or mortgage lender. This is not a commitment to lend. When one person acts as both your real estate agent and your loan officer, you will receive a written disclosure before proceeding.
                 <div class="footer-policy-links">
                     <a href="/privacy-policy">Privacy Policy</a> &nbsp;|&nbsp; <a href="/terms-of-service">Terms of Service</a>
                 </div>
@@ -757,19 +755,43 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-
                 const targetId = this.getAttribute('href');
-                if(targetId === '#') return;
-
+                if (targetId === '#') return;
                 const targetElement = document.querySelector(targetId);
-                if(targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
+                if (targetElement) {
+                    window.scrollTo({ top: targetElement.offsetTop - 80, behavior: 'smooth' });
                 }
             });
         });
+
+        // Lead form -> Esteban's CRM (texts back from 480-526-4115)
+        (function () {
+            var ENDPOINT = 'https://sms.whyrebate.com/leads/estebanholman';
+            var form = document.getElementById('lead-form'), msg = document.getElementById('form-msg');
+            var params = new URLSearchParams(location.search);
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                msg.className = 'form-msg'; msg.textContent = '';
+                var fd = new FormData(form), payload = {};
+                fd.forEach(function (v, k) { if (k !== 'consent') payload[k] = String(v).trim(); });
+                payload.consent = form.consent.checked;
+                if (!payload.first_name || !payload.phone || !payload.interest) { msg.className = 'form-msg err'; msg.textContent = 'Please add your name, phone, and what you\'re looking to do.'; return; }
+                if (!payload.consent) { msg.className = 'form-msg err'; msg.textContent = 'Please check the box to agree to be contacted.'; return; }
+                payload.consent_text = document.getElementById('consent-text').textContent.replace(/\s+/g, ' ').trim();
+                payload.form_name = 'estebanholman_contact';
+                payload.page_url = location.href;
+                ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid'].forEach(function (k) { if (params.get(k)) payload[k] = params.get(k); });
+                var btn = form.querySelector('button'); btn.disabled = true;
+                fetch(ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
+                    .then(function (r) { return r.json().then(function (j) { return { ok: r.ok && j.ok, j: j }; }); })
+                    .then(function (res) {
+                        if (res.ok) { form.reset(); msg.className = 'form-msg ok'; msg.textContent = 'Got it! I\'ll text you shortly from 480-526-4115.'; }
+                        else { msg.className = 'form-msg err'; msg.textContent = (res.j && res.j.error) || 'Something went wrong. Please call or text 480-526-4115.'; }
+                    })
+                    .catch(function () { msg.className = 'form-msg err'; msg.textContent = 'Something went wrong. Please call or text 480-526-4115.'; })
+                    .finally(function () { btn.disabled = false; });
+            });
+        })();
     </script>
 </body>
 </html>
